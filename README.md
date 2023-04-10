@@ -5,26 +5,26 @@
 #### Kelas :TI.22.A2
 
 1. Buat sebuah database dengan nama latihan2!
-CREATE DATABASE latihan2;
+#### CREATE DATABASE latihan2;
 
 ![image](https://user-images.githubusercontent.com/115569493/230861992-247724e5-23fd-4fa2-a020-c501a602065e.png)
 
 2. Buat sebuah tabel dengan nama biodata (nama, alamat) didalam database latihan1!
-CREATE TABLE siswa (nama VARCHAR(100), alamat TEXT);
+#### CREATE TABLE siswa (nama VARCHAR(100), alamat TEXT);
 
 ![image](https://user-images.githubusercontent.com/115569493/230862316-5606347f-6cf3-4a93-98e8-61f1a5204a1a.png)
 
 3. tambahkan sebuah kolom keterangan (varchar 15), sebagai kolom trakhir.
 untuk menambahkan kolom terakhir yaitu deangan sering digunakan kata after, contoh:
 
-alter table biodata add column keterangan varchar (15) after phone;
+#### alter table biodata add column keterangan varchar (15) after phone;
 
 ![image](https://user-images.githubusercontent.com/115569493/230863415-86dece5c-cee0-476a-83fb-c636caf18751.png)
 
 4. tambahkan kolom id(int11) di awal (sebagai kolom pertama).
 untuk menambahkan kolom pertama yaitu dengan perintah sebagai berikut:
 
-alter table biodata add column id(int11) first;
+#### alter table biodata add column id(int11) first;
 
 ![image](https://user-images.githubusercontent.com/115569493/230863620-55ea3fd8-522c-40bf-a77b-863dea8cca28.png)
 
