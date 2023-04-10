@@ -82,13 +82,13 @@ perintahnya sama seperti diatas, hanya saja diganti menjadi unique key.
 
 ![image](https://user-images.githubusercontent.com/115569493/230865840-de7717b9-87ef-4b32-8fb8-58b2dcf7f20e.png)
 
-Evaluasi dan pertanyaan
-Apa maksud dari int (11)?
-int (11) nunjukkan bahwa kolom memiliki tipe data bilangan bulat (integer) dengan ukuran 11 digit 
+## Evaluasi dan pertanyaan
+#### Apa maksud dari int (11)?
+#### int (11) nunjukkan bahwa kolom memiliki tipe data bilangan bulat (integer) dengan ukuran 11 digit 
 Ketika kita melihat struktur tabel dengan perintah desc, ada kolom Null yang berisi Yes dan No. Apa maksudnya ?
 Jika kolom "Null" adalah "YES", itu berarti kolom tersebut diizinkan untuk memiliki nilai NULL.
 
-Jika kolom "Null" adalah "NO", maka kolom tersebut tidak diizinkan untuk memiliki nilai NULL
+#### Jika kolom "Null" adalah "NO", maka kolom tersebut tidak diizinkan untuk memiliki nilai NULL
 
 
 
